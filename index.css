@@ -1,0 +1,182 @@
+@font-face {
+    font-family: GreatVibes;
+    src: url('/static_files/fonts/gv.ttf');
+}
+
+.greatVibesFont {
+  font-family : GreatVibes;
+}
+
+.navbar-brand img {
+  width:100%;
+  max-width:640px;
+  position:absolute;
+  transition:all 300ms linear;
+  transform-origin: 0% 0%;
+}
+.hero {
+  height: 100vh;
+  background-image:url(wp8975884.jpg);
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-size: cover;
+  width: 100vw;
+  max-width: 100%;
+}
+
+img.consize {
+  transform : translateY(-20px) scale(0.25);
+}
+#mainNav {
+  transition : background 300ms linear;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+img{width: 100%;}
+.s123{
+  height:auto;padding: 25px;box-shadow: 5px 5px 10px;width: 95%;margin: 4% auto ;max-width: 1920px;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+.s1234{ padding: 15px;box-shadow: black 5px 5px 10px;width: 100%;margin: 4% auto; height: 100%; 
+background-image:  url(sparta.webp); 
+  background-repeat: no-repeat; 
+   background-size: cover; 
+   font-family: Arial, Helvetica, sans-serif;
+ color: rgb(255, 255, 255);
+
+
+
+ 
+
+
+
+}
+.s12345{ padding: 15px;box-shadow: black 5px 5px 10px;width: 100%;margin: 4% auto; height: 100%;
+background-image:  url(slavia2.jpg); 
+  background-repeat: no-repeat; 
+   background-size: cover; 
+   font-family: Arial, Helvetica, sans-serif;
+ color: rgb(255, 255, 255);
+
+
+}
+.s123456{ padding: 15px;box-shadow: black 5px 5px 10px;width: 100%;margin: 4% auto; height: 100%;
+  background-image:  url(jabko.jpeg); 
+    background-repeat: no-repeat; 
+     background-size: cover; 
+     font-family: Arial, Helvetica, sans-serif;
+   color: rgb(255, 255, 255);
+  }
+
+  p{
+    text-shadow : 0px 3px 4px rgba(0, 0, 0, 0.2);
+    font-size: 22px;
+    font-weight: 600;
+    
+    
+  }
+
+.parallax {
+  
+  background-image: url("wee.jfif");
+
+ 
+  min-height: 900px;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.parallax2{
+  background-image: url("sparta.webp");
+
+  
+  min-height: 900px;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax3 {
+  
+  background-image: url(teah.jpg);
+ 
+  
+  min-height: 900px;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.media-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+  .inline-photo {
+   
+    
+    margin: 2em auto;
+    opacity: 0;
+    transform: translateY(4em) rotateZ(3deg);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out;
+    max-width: 600px;
+    width: 90%;
+    will-change: transform, opacity;
+  }
+  
+  .inline-photo.is-visible {
+    opacity: 1;
+    transform: rotateZ(0deg);
+  }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:956px){
+  .navbar-brand img {
+    width:100%;
+    max-width:240px;
+    position:relative;
+    
+  }
+}
